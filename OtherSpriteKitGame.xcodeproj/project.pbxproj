@@ -14,6 +14,7 @@
 		876A75821FDDE74800A15A0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 876A75801FDDE74800A15A0E /* LaunchScreen.storyboard */; };
 		876A758A1FDDE89A00A15A0E /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876A75891FDDE89A00A15A0E /* GameViewController.swift */; };
 		876A758C1FDDEDD300A15A0E /* Extensión.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876A758B1FDDEDD300A15A0E /* Extensión.swift */; };
+		876A758E1FDDF3F000A15A0E /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876A758D1FDDF3F000A15A0E /* MainMenu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		876A75831FDDE74800A15A0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		876A75891FDDE89A00A15A0E /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		876A758B1FDDEDD300A15A0E /* Extensión.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensión.swift"; sourceTree = "<group>"; };
+		876A758D1FDDF3F000A15A0E /* MainMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				876A75801FDDE74800A15A0E /* LaunchScreen.storyboard */,
 				876A75831FDDE74800A15A0E /* Info.plist */,
 				876A758B1FDDEDD300A15A0E /* Extensión.swift */,
+				876A758D1FDDF3F000A15A0E /* MainMenu.swift */,
 			);
 			path = OtherSpriteKitGame;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				876A758E1FDDF3F000A15A0E /* MainMenu.swift in Sources */,
 				876A757A1FDDE74800A15A0E /* ViewController.swift in Sources */,
 				876A758C1FDDEDD300A15A0E /* Extensión.swift in Sources */,
 				876A758A1FDDE89A00A15A0E /* GameViewController.swift in Sources */,

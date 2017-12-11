@@ -11,6 +11,7 @@ import SpriteKit
 class MainMenu: SKScene {
     override func didMove(to view: SKView) {
         print("Dentro del Menu Principal")
+        backgroundColor = .blue
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {

@@ -25,6 +25,12 @@ class GameViewController: UIViewController {
         skView.rightAnchor.constraint(equalTo: view.rightAnchor).isActive = true
         skView.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
         skView.leftAnchor.constraint(equalTo: view.leftAnchor).isActive = true
+        
+        if DeviceType.isiPhoneX {
+            print("iPhoneX")
+        }else {
+            print("Otro")
+        }
     }
     
 }

@@ -15,6 +15,7 @@
 		876A758A1FDDE89A00A15A0E /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876A75891FDDE89A00A15A0E /* GameViewController.swift */; };
 		876A758C1FDDEDD300A15A0E /* Extensión.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876A758B1FDDEDD300A15A0E /* Extensión.swift */; };
 		876A758E1FDDF3F000A15A0E /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876A758D1FDDF3F000A15A0E /* MainMenu.swift */; };
+		876A75901FDDFB2300A15A0E /* OSGManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876A758F1FDDFB2300A15A0E /* OSGManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		876A75891FDDE89A00A15A0E /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		876A758B1FDDEDD300A15A0E /* Extensión.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensión.swift"; sourceTree = "<group>"; };
 		876A758D1FDDF3F000A15A0E /* MainMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
+		876A758F1FDDFB2300A15A0E /* OSGManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSGManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 		876A75761FDDE74800A15A0E /* OtherSpriteKitGame */ = {
 			isa = PBXGroup;
 			children = (
+				876A758F1FDDFB2300A15A0E /* OSGManager.swift */,
 				876A75771FDDE74800A15A0E /* AppDelegate.swift */,
 				876A75791FDDE74800A15A0E /* ViewController.swift */,
 				876A75891FDDE89A00A15A0E /* GameViewController.swift */,
@@ -150,6 +153,7 @@
 				876A758C1FDDEDD300A15A0E /* Extensión.swift in Sources */,
 				876A758A1FDDE89A00A15A0E /* GameViewController.swift in Sources */,
 				876A75781FDDE74800A15A0E /* AppDelegate.swift in Sources */,
+				876A75901FDDFB2300A15A0E /* OSGManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
